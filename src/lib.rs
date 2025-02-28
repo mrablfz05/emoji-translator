@@ -1,14 +1,22 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+use wasm_bindgen::prelude::*;
+use std::collections::HashMap;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+#[wasm_bindgen]
+// Translate words into emoji
+pub fn emoji_translator(text: &str) -> String {
+    let mut emoji_dict: HashMap<&str, &str> = HashMap::new();
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
+    emoji_dict.insert("happy", "😀");
+    emoji_dict.insert("sad", "😢");
+    emoji_dict.insert("love", "❤️");
+    emoji_dict.insert("fire", "🔥");
+    emoji_dict.insert("cool", "😎");
+    emoji_dict.insert("angry", "😠");
+    emoji_dict.insert("cry", "😭");
+    emoji_dict.insert("laugh", "😂");
+    emoji_dict.insert("coffee", "☕");
+    emoji_dict.insert("heart", "💖");
+    emoji_dict.insert("sun", "☀️");
+    emoji_dict.insert("moon", "🌙");
+    emoji_dict.insert("money", "💰");
 }
