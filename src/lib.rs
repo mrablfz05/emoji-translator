@@ -20,5 +20,10 @@ pub fn emoji_translator(text: &str) -> String {
     emoji_dict.insert("moon", "🌙");
     emoji_dict.insert("money", "💰");
 
-    
+    println!("Test Emoji Value: {:?}", test);
+
+    text.split_whitespace()
+        .map(|word| emoji_dict.get(word).unwrap_or(&word).to_string())
+        .collect::<Vec<String>>()
+        .join(" ")
 }
