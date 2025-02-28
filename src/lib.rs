@@ -6,7 +6,7 @@ use std::collections::HashMap;
 pub fn emoji_translator(text: &str) -> String {
     let mut emoji_dict: HashMap<&str, &str> = HashMap::new();
 
-    emoji_dict.insert("happy", "😀");
+    let test = emoji_dict.insert("happy", "😀");
     emoji_dict.insert("sad", "😢");
     emoji_dict.insert("love", "❤️");
     emoji_dict.insert("fire", "🔥");
@@ -19,4 +19,6 @@ pub fn emoji_translator(text: &str) -> String {
     emoji_dict.insert("sun", "☀️");
     emoji_dict.insert("moon", "🌙");
     emoji_dict.insert("money", "💰");
+
+    
 }
