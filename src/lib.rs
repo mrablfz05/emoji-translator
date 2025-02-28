@@ -22,6 +22,7 @@ pub fn emoji_translator(text: &str) -> String {
 
     println!("Test Emoji Value: {:?}", test);
 
+    // Convert text into words and replace them with emojis
     text.split_whitespace()
         .map(|word| emoji_dict.get(word).unwrap_or(&word).to_string())
         .collect::<Vec<String>>()
