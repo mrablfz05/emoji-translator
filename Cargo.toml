@@ -7,3 +7,6 @@ license = "MIT"
 
 [dependencies]
 wasm-pack = "0.13.1"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
