@@ -20,6 +20,7 @@
     "url": "https://github.com/mrablfz05/emoji-translator/issues"
   },
   "homepage": "https://github.com/mrablfz05/emoji-translator#readme",
+  "keywords": ["emoji", "translator", "wasm", "rust", "emoji-converter"],
   "sideEffects": [
     "./emoji_translator.js",
     "./snippets/*"
