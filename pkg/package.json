@@ -12,6 +12,14 @@
   ],
   "main": "emoji_translator.js",
   "types": "emoji_translator.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrablfz05/emoji-translator"
+  },
+  "bugs": {
+    "url": "https://github.com/mrablfz05/emoji-translator/issues"
+  },
+  "homepage": "https://github.com/mrablfz05/emoji-translator#readme",
   "sideEffects": [
     "./emoji_translator.js",
     "./snippets/*"
