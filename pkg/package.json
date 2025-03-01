@@ -1,0 +1,19 @@
+{
+  "name": "emoji-translator-rs",
+  "type": "module",
+  "description": "A simple emoji translator using Rust and WebAssembly",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "emoji_translator_bg.wasm",
+    "emoji_translator.js",
+    "emoji_translator_bg.js",
+    "emoji_translator.d.ts"
+  ],
+  "main": "emoji_translator.js",
+  "types": "emoji_translator.d.ts",
+  "sideEffects": [
+    "./emoji_translator.js",
+    "./snippets/*"
+  ]
+}
