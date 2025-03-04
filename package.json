@@ -1,6 +1,6 @@
 {
   "name": "emoji-translator-rs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple emoji translator using Rust and WebAssembly",
   "repository": {
     "type": "git",
