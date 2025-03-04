@@ -2,7 +2,7 @@
   "name": "emoji-translator-rs",
   "type": "module",
   "description": "A simple emoji translator using Rust and WebAssembly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "files": [
     "emoji_translator_bg.wasm",
@@ -20,7 +20,13 @@
     "url": "https://github.com/mrablfz05/emoji-translator/issues"
   },
   "homepage": "https://github.com/mrablfz05/emoji-translator#readme",
-  "keywords": ["emoji", "translator", "wasm", "rust", "emoji-converter"],
+  "keywords": [
+    "emoji",
+    "translator",
+    "wasm",
+    "rust",
+    "emoji-converter"
+  ],
   "sideEffects": [
     "./emoji_translator.js",
     "./snippets/*"
